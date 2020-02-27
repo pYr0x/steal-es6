@@ -1,0 +1,24 @@
+{
+  "name": "steal-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "server": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "steal": "^2.2.4",
+    "steal-tools": "^2.2.6"
+  },
+  "steal":{
+    "main": "index",
+    "directories": {
+      "lib": "src"
+    },
+    "forceES5": false
+  }
+}
